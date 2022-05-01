@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.home {
+  padding: 15px;
+  text-align: center;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+}
+
+.main {
+  float: left;
+  width: 80%;
+  padding: 0 20px;
+}
+
+.main ul li {
+  padding: 5px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 7px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 620px) {
+
+  /* For mobile phones: */
+  .menu,
+  .main {
+    width: 100%;
+  }
+}

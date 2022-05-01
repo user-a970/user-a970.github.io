@@ -2,78 +2,82 @@
 <html lang="en" class="no-js">
 
 <head>
-    <meta charset="utf-8">
-    <title>FirstName LastName &middot; Current Employer</title>
-    <meta name="description" content="Name, at Employer, Working on X">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://github.com/user" rel="me"> <!-- what does this mean? -->
-    <style>
-        * {
-            box-sizing: border-box;
-        }
+  <meta charset="utf-8">
 
-        .menu {
-            float: left;
-            width: 20%;
-            text-align: center;
-        }
+  <title>FirstName LastName &middot; Website</title>
 
-        .menu a {
-            padding: 8px;
-            margin-top: 7px;
-            display: block;
-            width: 100%;
-        }
+  <meta name="keywords" content="HTML, CSS, Other">
+  <meta name="description" content="Professional ">
+  <meta name="author" content="FirstName LastName">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        .main {
-            float: left;
-            width: 80%;
-            padding: 0 20px;
-        }
+  <link rel="stylesheet" href="./css/styles.css">
 
-        @media only screen and (max-width: 620px) {
-
-            /* For mobile phones: */
-            .menu,
-            .main {
-                width: 100%;
-            }
-        }
-    </style>
 </head>
 
-<body style="font-family:Arial,sans-serif;">
+<body>
 
-    <div style="padding:15px;text-align:center;">
-        <h1>Hello World</h1>
-    </div>
+  <div class="home">
 
-    <div style="overflow:auto">
-        <div class="menu">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-            <a href="#">Link 4</a>
-        </div>
+    <h1>Welcome</h1>
 
-        <div class="main">
-            <h2>Lorum Ipsum</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                laoreet dolore magna aliquam erat volutpat.
-            </p>
-            
-            <h2>Posts</h2>
-            <p>
-                Description of the post <a href="posts/some_post.html">here</a>.
-            </p>
-            
+  </div>
 
-        </div>
+  <div style="overflow:auto">
+
+    <div class="menu">
+
+      <a href="#intro">Intro</a>
+
+      <a href="#projects">Projects</a>
+
+      <a href="#">Posts</a>
+
+      <a href="#">CV</a>
 
     </div>
 
-    <div style="text-align:center;padding:10px;margin-top:7px;">Footer</div>
+    <div class="main">
+
+      <h2 id="intro">Intro</h2>
+
+      <p>A short introduction about anything you like &mdash; preferably something interesting.</p>
+
+      <h2 id="projects">Projects</h2>
+
+      <h3>Current</h3>
+
+      <ul>
+        <li>Restoring an Old Bicycle.
+        <li>Writing a Book!
+      </ul>
+
+      <h3>Completed</h3>
+
+      <ul>
+        <li>Build a Website.
+        <li>Learn to Cook!
+      </ul>
+
+      <h2>Posts</h2>
+
+      <p>Link to a post <a href="./posts/some_post.html">here</a>...</p>
+
+      <p>...and another post <a href="./posts/another_post.html">here</a>.</p>
+
+    </div>
+
+  </div>
+
+  <div class="footer">
+
+    <p>
+      Built in vanilla HTML/CSS.
+      Styled as
+      <a href="https://google.github.io/styleguide/htmlcssguide.html">here</a>.
+    </p>
+
+  </div>
 
 </body>
 
