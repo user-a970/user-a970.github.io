@@ -2,39 +2,86 @@
 <html lang="en" class="no-js">
 
 <head>
-    <meta charset="utf-8">
-    <title>FirstName LastName &middot; Current Employer</title>
-    <meta name="description" content="Name, at Employer, Working on X">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">
+
+  <meta charset="utf-8">
+
+  <title>FirstName LastName &middot; Website</title>
+
+  <meta name="keywords" content="Keyword 1, Keyword 2, Keyword 3">
+  <meta name="description" content="A Website about the things I like.">
+  <meta name="author" content="FirstName LastName">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 
-<body style="font-family:Arial,sans-serif;">
+<body>
 
-    <div style="padding:15px;text-align:left;">
-        <h2>Hello World</h2>
-    </div>
+  <div class="home">
 
-    <div style="overflow:auto">
+    <h1>Welcome</h1>
 
-        <div class="main">
-            <h2>Lorum Ipsum</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                laoreet dolore magna aliquam erat volutpat.
-            </p>
+  </div>
 
-            <h2>Posts</h2>
-            <p>
-                Description of the post <a href="posts/another_post.html">here</a>.
-            </p>
+  <div style="overflow:auto">
 
+    <div class="menu">
 
-        </div>
+      <a href="#intro">Intro</a>
+
+      <a href="#projects">Projects</a>
+
+      <a href="#posts">Posts</a>
+
+      <a href="#cv">CV</a>
 
     </div>
 
-    <div style="text-align:center;padding:10px;margin-top:7px;">Footer</div>
+    <div class="main">
+
+      <h2 id="intro">Intro</h2>
+
+      <p>A short introduction about anything you like &mdash; preferably something interesting.</p>
+
+      <h2 id="projects">Projects</h2>
+
+      <h3>Current</h3>
+
+      <ul>
+        <li>Restoring an Old Bicycle.
+        <li>Writing a Book!
+      </ul>
+
+      <h3>Past</h3>
+
+      <ul>
+        <li>Build a Website.
+        <li>Learn to Cook!
+      </ul>
+
+      <h2 id="posts">Posts</h2>
+
+      <ul>
+        <li>Link to a post <a href="./posts/some_post.html">&rarr;</a> ...
+        <li>... and another post <a href="./posts/another_post.html">&rarr;</a>
+      </ul>
+
+      <h2 id="cv">CV</h2>
+
+    </div>
+
+  </div>
+
+  <div class="footer">
+
+    <p>
+      Built in vanilla HTML/CSS.
+      Styled as
+      <a href="https://google.github.io/styleguide/htmlcssguide.html">here</a>.
+    </p>
+
+  </div>
 
 </body>
 

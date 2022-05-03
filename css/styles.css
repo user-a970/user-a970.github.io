@@ -2,38 +2,16 @@
   box-sizing: border-box;
 }
 
-.home {
-  padding: 15px;
-  text-align: center;
+h1,h2,h3,h4 {
+  margin-bottom: 0;
 }
 
-.menu {
-  float: left;
-  width: 20%;
-  text-align: center;
+a {
+  text-decoration: none;
 }
 
-.menu a {
-  padding: 8px;
-  margin-top: 7px;
-  display: block;
-  width: 100%;
-}
-
-.main {
-  float: left;
-  width: 80%;
-  padding: 0 20px;
-}
-
-.main ul li {
-  padding: 5px;
-}
-
-.footer {
-  text-align: center;
-  padding: 10px;
-  margin-top: 7px;
+a:hover {
+  text-decoration: underline;
 }
 
 body {
@@ -41,16 +19,81 @@ body {
 }
 
 pre code {
+  padding: 1rem;
+  display: block;
   background-color: #eee;
   border: 1px solid #999;
+}
+
+.header {
+  padding: 1rem;
+  text-align: center;
+}
+
+.menu {
+  width: 20%;
+  float: left;
+}
+
+.menu a {
+  padding: 0.5rem;
+  width: 100%;
   display: block;
-  padding: 20px;
+  text-align: right;
+}
+
+.main {
+  padding: 0 1rem 0 1rem;
+  width: 80%;
+  float: left;
+}
+
+.main ul li {
+  padding: 0.25rem;
+}
+
+.footer {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+/* styles for resume/cv section */
+.cv-section {
+  padding: 1rem;
+}
+
+.cv-header {
+  padding: 0.5rem 0 1rem 0;
+  font-style: italic;
+}
+
+.cv-header-left {
+  width: 50%;
+  float: left;
+}
+
+.cv-header-right {
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+.cv-details {
+  padding-top: 1rem;
 }
 
 @media only screen and (max-width: 620px) {
 
   /* For mobile phones: */
   .menu,
+  .menu a {
+    padding: 0.5rem;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
   .main {
     width: 100%;
   }
