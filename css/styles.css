@@ -1,13 +1,22 @@
+/* general styles */
+
+/* universal box sizing */
 * {
   box-sizing: border-box;
 }
 
-h1 {
-  font-size: 10vw;
-  margin-bottom: 0;
+/* most widely used web-safe font */
+body {
+  font-family: Arial, sans-serif;
 }
 
-h2,h3,h4 {
+/* find margin best practice, mix with responsive example */
+p {
+  margin: 15px;
+}
+
+
+h1,h2,h3,h4 {
   margin-bottom: 0;
 }
 
@@ -27,16 +36,14 @@ ul li::marker {
   content: "> ";
 }
 
-body {
-  font-family: Arial, sans-serif;
-}
-
 pre code {
   padding: 1rem;
   display: block;
   background-color: #eee;
   border: 1px solid #999;
 }
+
+/* some classes styles */
 
 .header {
   padding: 1rem;
