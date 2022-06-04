@@ -2,7 +2,12 @@
   box-sizing: border-box;
 }
 
-h1,h2,h3,h4 {
+h1 {
+  font-size: 10vw;
+  margin-bottom: 0;
+}
+
+h2,h3,h4 {
   margin-bottom: 0;
 }
 
@@ -12,6 +17,14 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+ul {
+  padding: 1rem;
+}
+
+ul li::marker {
+  content: "> ";
 }
 
 body {
@@ -31,8 +44,13 @@ pre code {
 }
 
 .menu {
-  width: 20%;
-  float: left;
+  width: 10rem;
+  position: fixed;
+  z-index: 1;
+  top: 25%;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;  
 }
 
 .menu a {
@@ -44,8 +62,7 @@ pre code {
 
 .main {
   padding: 0 1rem 0 1rem;
-  width: 80%;
-  float: left;
+  margin-left: 10rem;
 }
 
 .main ul li {
@@ -86,7 +103,11 @@ pre code {
 @media only screen and (max-width: 620px) {
 
   /* For mobile phones: */
-  .menu,
+  .menu {
+    width: 100%;
+    position: relative;
+  }
+
   .menu a {
     padding: 0.5rem;
     width: 100%;
@@ -96,5 +117,7 @@ pre code {
 
   .main {
     width: 100%;
+    margin-left: auto;
   }
+
 }
