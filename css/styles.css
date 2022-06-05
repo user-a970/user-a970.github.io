@@ -37,8 +37,6 @@ ul li::marker {
   content: "> ";
 }
 
-*/
-
 pre code {
   padding: 1rem;
   display: block;
@@ -46,37 +44,40 @@ pre code {
   border: 1px solid #999;
 }
 
-/* site wide */
+*/
+
+
+/* landing page */
 
 .h1-main {
-  padding: 5%;
+  padding: 1em;
   text-align: center;
   background-color: gray;
 }
 
 .menu {
+  margin-top: 1em;
   width: 160px;
   position: fixed;
   z-index: 1;
-  top: auto;
   overflow-x: hidden;
-  padding: 0%;
   background-color: black;
 }
 
 .menu a {
-  background-color: red;
-  padding: 5%;
-  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
   display: block;
+  font-size: larger;
   text-align: right;
-  margin-top: 10px;
+  background-color: red;
 }
 
 .main {
+  margin-left: 170px; /* 10px between sidebar and main */
+  padding-top: 0.5em;
+  margin-top: 1em;
   background-color: blue;
-  padding: 0%;
-  margin-left: 160px;
 }
 
 .main ul li {
@@ -84,8 +85,8 @@ pre code {
 }
 
 .main-section {
-  margin: 5%;
-  padding: 0%;
+  margin: 1em;
+  padding: 1em;
   background-color: green;
 }
 
@@ -98,6 +99,7 @@ pre code {
 
 /* styles for resume/cv section */
 
+/*
 .cv-section {
   padding: 1rem;
 }
@@ -121,6 +123,8 @@ pre code {
 .cv-details {
   padding-top: 1rem;
 }
+
+*/
 
 @media only screen and (max-width: 620px) {
 
