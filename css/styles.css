@@ -10,17 +10,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* find margin best practice, mix with responsive example */
-
-/*
-p {
-  margin: 15px;
-}
-
-h1,h2,h3,h4 {
-  margin-bottom: 0;
-}
-
 a {
   text-decoration: none;
 }
@@ -29,9 +18,18 @@ a:hover {
   text-decoration: underline;
 }
 
-ul {
-  padding: 1rem;
+ul li {
+  margin-top: 1rem;
 }
+
+
+/* find margin best practice, mix with responsive example */
+
+/*
+p {
+  margin: 15px;
+}
+
 
 ul li::marker {
   content: "> ";
@@ -56,7 +54,6 @@ pre code {
 }
 
 .menu {
-  margin-top: 1em;
   width: 160px;
   position: fixed;
   z-index: 1;
@@ -65,8 +62,8 @@ pre code {
 }
 
 .menu a {
+  margin-top: 0.5em;
   padding: 0.5em;
-  margin-bottom: 0.5em;
   display: block;
   font-size: larger;
   text-align: right;
@@ -74,28 +71,32 @@ pre code {
 }
 
 .main {
-  margin-left: 170px; /* 10px between sidebar and main */
-  padding-top: 0.5em;
-  margin-top: 1em;
+  margin-left: 160px;
+  padding: 0.5em 0.5em;
   background-color: blue;
 }
 
-.main ul li {
-  padding: 0.25rem;
-}
-
 .main-section {
-  margin: 1em;
+  margin-top: 0.5em;
   padding: 1em;
   background-color: green;
 }
 
+/* site wide */
+
 .footer {
-  padding: 0.5rem;
   margin-top: 0.5rem;
+  padding: 0.5rem;
   text-align: center;
   background-color: gray;
 }
+
+/*
+.main ul li {
+  padding: 0.25rem;
+}
+
+*/
 
 /* styles for resume/cv section */
 
