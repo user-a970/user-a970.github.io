@@ -55,6 +55,7 @@ pre code {
   padding: 1em;
   text-align: center;
   background-color: gray;
+  height: 6em;
 }
 
 .menu {
@@ -63,6 +64,8 @@ pre code {
   z-index: 1;
   overflow-x: hidden;
   background-color: black;
+  top: 6em;
+  bottom: 5em;
 }
 
 .menu a {
