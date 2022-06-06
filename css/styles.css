@@ -5,13 +5,10 @@
   box-sizing: border-box;
 }
 
-.container {
-  overflow: auto;
-}
-
 /* most widely used web-safe font */
 body {
   font-family: Arial, sans-serif;
+  margin: 0;
 }
 
 a {
@@ -49,6 +46,11 @@ pre code {
 */
 
 
+.container {
+  /* can remove this class probably */
+  margin: 0;
+}
+
 /* landing page */
 
 .h1-main {
@@ -60,12 +62,13 @@ pre code {
 
 .menu {
   width: 160px;
-  position: fixed;
-  z-index: 1;
-  overflow-x: hidden;
+  height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin-bottom: -4em;
+  float: left;
   background-color: black;
-  top: 6em;
-  bottom: 5em;
 }
 
 .menu a {
@@ -77,25 +80,28 @@ pre code {
   background-color: red;
 }
 
+/* site wide */
+
 .main {
   margin-left: 160px;
-  padding: 0.5em 0.5em;
+  padding: 0.5em;
   background-color: blue;
 }
 
 .main-section {
-  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   padding: 1em;
   background-color: green;
 }
 
-/* site wide */
-
 .footer {
-  margin-top: 0.5rem;
-  padding: 0.5rem;
+  padding: 0.5em;
   text-align: center;
   background-color: gray;
+  height: 4em;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
 }
 
 /*
@@ -136,22 +142,38 @@ pre code {
 
 @media only screen and (max-width: 620px) {
 
-  /* For mobile phones: */
-  .menu {
+  /* for mobile phones, FIX so that buttons are sticky */
+
+  .menu,
+  .main,
+  .footer {
     width: 100%;
+    float: left;
+    margin: auto;
+    height: auto;
     position: relative;
   }
 
   .menu a {
     padding: 0.5rem;
     width: 100%;
-    display: block;
     text-align: center;
+  }
+
+}
+
+@media only screen and (max-height: 310px) {
+
+  /* for limited vertical height */
+
+  .menu {
+    visibility: hidden;
+    height: 0px;
   }
 
   .main {
     width: 100%;
-    margin-left: auto;
+    margin: auto;
   }
 
 }
