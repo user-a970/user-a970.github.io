@@ -101,8 +101,10 @@ pre code {
   height: 4em;
   position: absolute;
   width: 100%;
-  z-index: 2;
-  transform: translate3d(0, 0, 200px);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  position: absolute;
+  z-index: 1000;
 }
 
 /*
