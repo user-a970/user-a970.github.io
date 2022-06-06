@@ -5,157 +5,158 @@
 <html lang="en">
 
 <!-- metadata used by the browser and search engines -->
+
 <head>
 
-  <!-- required title of page content -->
-  <title>Example Website</title>
-  
-  <!-- a link to an external style sheet in the css folder -->
-  <link rel="stylesheet" href="css/styles.css">
-  
-  <!-- html5 specification encourages the use of utf-8 -->
-  <meta charset="utf-8">
-  
-  <!-- keywords for search engines -->
-  <meta name="keywords" content="HTML, CSS, Example, Website">
-  
-  <!-- other metadata -->
-  <meta name="description" content="Example Website built with HTML and CSS">
-  <meta name="author" content="FirstName LastName">
-  
-  <!-- set the viewport to look good on all devices -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- required title of page content -->
+    <title>Example Website</title>
+
+    <!-- a link to an external style sheet in the css folder -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- html5 specification encourages the use of utf-8 -->
+    <meta charset="utf-8">
+
+    <!-- keywords for search engines -->
+    <meta name="keywords" content="HTML, CSS, Example, Website">
+
+    <!-- other metadata -->
+    <meta name="description" content="Example Website built with HTML and CSS">
+    <meta name="author" content="FirstName LastName">
+
+    <!-- set the viewport to look good on all devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
 
 <body>
 
-  <div class="h1-main">
+    <div class="h1-main">
 
-    <h1>Welcome</h1>
-
-  </div>
-
-  <!-- adds a scroll-bar if the text overflows anywhere -->
-  <div class="container"> 
-
-    <div class="menu">
-
-      <a href="#intro">Intro</a>
-
-      <a href="#projects">Projects</a>
-
-      <a href="#posts">Posts</a>
-
-      <a href="#cv">CV</a>
+        <h1>Welcome</h1>
 
     </div>
 
-    <div class="main">
+    <!-- adds a scroll-bar if the text overflows anywhere -->
+    <div class="container">
 
-      <div class="main-section">
+        <div class="menu">
 
-        <h2 id="intro">Intro</h2>
+            <a href="#intro">Intro</a>
 
-        <p>A short introduction about anything you like &mdash; preferably something interesting.</p>
+            <a href="#projects">Projects</a>
 
-      </div>
+            <a href="#posts">Posts</a>
 
-      <div class="main-section">
-      
-        <h2 id="projects">Projects</h2>
-
-        <h3>Current</h3>
-
-        <ul>
-          <li>Restoring an Old Bicycle.
-          <li>Writing a Book!
-        </ul>
-
-        <h3>Past</h3>
-
-        <ul>
-          <li>Built a Website.
-          <li>Learned how to Cook!
-        </ul>
-
-      </div>  
-
-      <div class="main-section">
-      
-        <h2 id="posts">Posts</h2>
-
-        <ul>
-          <li>Link to a post <a href="./posts/some_post.html">&rarr;</a> ...
-          <li>... and another post <a href="./posts/another_post.html">&rarr;</a>
-        </ul>
-
-      </div>
-
-      <div class="main-section">
-      
-        <h2 id="cv">CV</h2>
-
-        <h3>Work Experience</h3>
-
-        <h4>Industry</h4>
-
-        <div class="cv-main-section">
-
-          <div class="cv-header">
-            <div class="cv-header-left">Employer A</div>
-            <div class="cv-header-right">20XX to Present</div>
-          </div>
-
-          <details class="cv-details">
-
-            <summary>Position A</summary>
-
-            <ul>
-              <li>Project 1
-              <li>Project 2
-              <li>Project 3
-            </ul>
-
-          </details>
+            <a href="#cv">CV</a>
 
         </div>
 
-        <div class="cv-main-section">
+        <div class="main">
 
-          <div class="cv-header">
-            <div class="cv-header-left">Employer B</div>
-            <div class="cv-header-right">20XX to 20XX</div>
-          </div>
+            <div class="main-section" id="intro">
 
-          <details class="cv-details">
+                <h2>Intro</h2>
 
-            <summary>Position B</summary>
+                <p>A short introduction about anything you like &mdash; preferably something interesting.</p>
 
-            <ul>
-              <li>Project 1
-              <li>Project 2
-              <li>Project 3
-            </ul>
+            </div>
 
-          </details>
+            <div class="main-section" id="projects">
+
+                <h2>Projects</h2>
+
+                <h3>Current</h3>
+
+                <ul>
+                    <li>Restoring an Old Bicycle.
+                    <li>Writing a Book!
+                </ul>
+
+                <h3>Past</h3>
+
+                <ul>
+                    <li>Built a Website.
+                    <li>Learned how to Cook!
+                </ul>
+
+            </div>
+
+            <div class="main-section" id="posts">
+
+                <h2>Posts</h2>
+
+                <ul>
+                    <li>Link to a post <a href="./posts/some_post.html">&rarr;</a> ...
+                    <li>... and another post <a href="./posts/another_post.html">&rarr;</a>
+                </ul>
+
+            </div>
+
+            <div class="main-section" id="cv">
+
+                <h2>CV</h2>
+
+                <h3>Work Experience</h3>
+
+                <h4>Industry</h4>
+
+                <div class="cv-main-section">
+
+                    <div class="cv-header">
+                        <div class="cv-header-left">Employer A</div>
+                        <div class="cv-header-right">20XX to Present</div>
+                    </div>
+
+                    <details class="cv-details">
+
+                        <summary>Position A</summary>
+
+                        <ul>
+                            <li>Project 1
+                            <li>Project 2
+                            <li>Project 3
+                        </ul>
+
+                    </details>
+
+                </div>
+
+                <div class="cv-main-section">
+
+                    <div class="cv-header">
+                        <div class="cv-header-left">Employer B</div>
+                        <div class="cv-header-right">20XX to 20XX</div>
+                    </div>
+
+                    <details class="cv-details">
+
+                        <summary>Position B</summary>
+
+                        <ul>
+                            <li>Project 1
+                            <li>Project 2
+                            <li>Project 3
+                        </ul>
+
+                    </details>
+
+                </div>
+
+            </div>
 
         </div>
-
-      </div>
 
     </div>
 
-  </div>
+    <div class="footer">
 
-  <div class="footer">
+        <p>
+            Built with HTML and CSS.
+        </p>
 
-    <p>
-      Built with HTML and CSS.
-    </p>
-
-  </div>
+    </div>
 
 </body>
 
