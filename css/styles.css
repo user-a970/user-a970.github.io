@@ -132,6 +132,7 @@ pre code {
 
 .content-hidden-contact {
   display: none;
+  height: 0 !important;
 }
 
 
@@ -178,15 +179,15 @@ pre code {
   /* hide unnecessary elements */
   
   .header, .footer, .menu {
-    display: none;
+    display: none !important;
   }
 
   #intro, #projects, #posts, #about {
-    display: none;
+    display: none !important;
   }
   
   body {
-    background-color: white;
+    background-color: white !important;
   }
 
   .content {
@@ -196,7 +197,8 @@ pre code {
   }
 
   .content-hidden-contact {
-    display: initial;
+    display: initial !important;
+    height: auto;
   }
 
 }
