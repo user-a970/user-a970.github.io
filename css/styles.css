@@ -28,7 +28,7 @@ pre code {
   border: 1px solid #999;
 }
 
-/* landing page */
+/* main page */
 
 .menu {
   width: 160px;
@@ -52,19 +52,19 @@ pre code {
 
 /* site wide styles */
 
-.h1-main {
+.header {
   padding: 1em;
   text-align: center;
   background-color: gray;
 }
 
-.main {
+.content {
   margin-left: 160px;
   padding: 0.5em;
   background-color: blue;
 }
 
-.main-section {
+.content-section {
   margin-bottom: 0.5em;
   padding: 1em;
   background-color: green;
@@ -84,7 +84,7 @@ pre code {
 
 /* cv styles */
 
-.cv-content {
+.cv-section {
   margin-top: 1em;
 }
 
