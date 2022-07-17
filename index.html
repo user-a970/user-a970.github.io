@@ -30,8 +30,6 @@
 </head>
 
 <body>
-
-    <!-- website content (main) -->
     
     <div class="header">
 
@@ -52,9 +50,11 @@
         <a href="#about">About</a>
 
     </div>
-
+    
     <div class="content">
-
+        
+        <!-- main content -->
+        
         <div class="content-section" id="intro">
 
             <h2>Intro</h2>
@@ -63,6 +63,8 @@
 
         </div>
 
+        <!-- current projects -->
+        
         <div class="content-section" id="projects">
 
             <h2>Projects</h2>
@@ -89,19 +91,21 @@
 
         </div>
 
+        <!-- some posts about your interests and work -->
+        
         <div class="content-section" id="posts">
 
             <h2>Posts</h2>
 
             <ul>
 
-                <li>A post about programming <a href="./posts/some_post.html">&rarr;</a> ...
+                <li>A post about programming <a href="./posts/some_post.html" target="_blank">&rarr;</a> ...
 
-                <li>... and a post with equations <a href="./posts/another_post.html">&rarr;</a>
+                <li>... and a post with equations <a href="./posts/another_post.html" target="_blank">&rarr;</a>
 
-                <li>A post about data <a href="./posts/another_post.html">&rarr;</a> ...
+                <li>A post about data <a href="./posts/another_post.html" target="_blank">&rarr;</a> ...
 
-                <li>... and a post of lamentations <a href="./posts/another_post.html">&rarr;</a>
+                <li>... and a post of lamentations <a href="./posts/another_post.html" target="_blank">&rarr;</a>
 
             </ul>
 
@@ -113,231 +117,253 @@
 
             <h2>CV</h2>
 
-            <h3 style="margin-bottom: 0;">Work Experience</h3>
-
-            <!-- relevant work experience -->
+            <h3>Work Experience</h3>
             
-            <div class="cv-header">
+            <div class="content-subsection">
+            
+                <!-- current employer -->
+                
+                <div class="cv-header">
 
-                <h4 class="cv-header-left">Employer A</h4>
+                    <h4 class="cv-header-left">Employer A</h4>
 
-                <h4 class="cv-header-right">20XX to Present</h4>
+                    <h4 class="cv-header-right">20XX to Present</h4>
 
-                <div class="clear"></div>
+                    <div class="clear"></div>
+
+                </div>
+
+                <div class="cv-section">
+
+                    <details closed>
+
+                        <summary>Position I</summary>
+
+                        <ul>
+
+                            <li>Project i
+
+                            <li>Project ii
+
+                            <li>Project ii
+
+                        </ul>
+
+                    </details>
+
+                </div>
+
+                <div class="cv-section">
+
+                    <details closed>
+
+                        <summary>Position II</summary>
+
+                        <ul>
+
+                            <li>Project a
+
+                            <li>Project b
+
+                            <li>Project c
+
+                        </ul>
+
+                    </details>
+
+                </div>
+
+                <!-- previous experience -->
+                
+                <div class="cv-header">
+
+                    <h4 class="cv-header-left">Employer B</h4>
+
+                    <h4 class="cv-header-right">20XX to 20YY</h4>
+
+                    <div class="clear"></div>
+
+                </div>
+
+                <div class="cv-section">
+
+                    <details closed>
+
+                        <summary>Position I</summary>
+
+                        <ul>
+
+                            <li>Project i
+
+                            <li>Project ii
+
+                            <li>Project ii
+
+                        </ul>
+
+                    </details>
+
+                </div>
 
             </div>
+            
+            <h3>Academic Experience</h3>
+            
+            <div class="content-subsection">
+            
+                <div class="cv-header">
 
-            <div class="cv-section">
+                    <h4 class="cv-header-left">University A</h4>
 
-                <details closed>
+                    <h4 class="cv-header-right">20XX to Present</h4>
 
-                    <summary>Position I</summary>
+                    <div class="clear"></div>
+
+                </div>
+
+                <div class="cv-section">
+
+                    <details closed>
+
+                        <summary>Position I</summary>
+
+                        <ul>
+
+                            <li>Project i
+
+                            <li>Project ii
+
+                            <li>Project ii
+
+                        </ul>
+
+                    </details>
+
+                </div>
+
+            </div>
+            
+            <h3>Education</h3>
+            
+            <div class="content-subsection">
+
+                <!-- post graduate -->
+            
+                <div class="cv-header">
+
+                    <h4 class="cv-header-left">University A</h4>
+
+                    <h4 class="cv-header-right">20XX</h4>
+
+                    <div class="clear"></div>
+
+                </div>
+
+                <div class="cv-section">
+
+                    <details closed>
+
+                        <summary>Degree, Topic, Title</summary>
+
+                        <ul>
+
+                            <li>Topic i
+
+                            <li>Topic ii
+
+                            <li>Topic ii
+
+                        </ul>
+
+                    </details>
+
+                </div>
+
+                <!-- graduate -->
+            
+                <div class="cv-header">
+
+                    <h4 class="cv-header-left">University B</h4>
+
+                    <h4 class="cv-header-right">20YY</h4>
+
+                    <div class="clear"></div>
+
+                </div>
+
+                <div class="cv-section">
+
+                    <details closed>
+
+                        <summary>Degree, Topic, Title</summary>
+
+                        <ul>
+
+                            <li>Topic a
+
+                            <li>Topic b
+
+                            <li>Topic c
+
+                        </ul>
+
+                    </details>
+
+                </div>
+
+            </div>
+            
+            <h3>Skills &#38; Interests</h3>
+            
+            <div class="content-subsection">
+
+                <div class="cv-section">
 
                     <ul>
 
-                        <li>Project i
+                        <li>Languages: German, Spanish, ...
 
-                        <li>Project ii
+                        <li>Programming: CSS, HTML, ...
 
-                        <li>Project ii
+                        <li>Tools: VSCode, Git, ...
 
-                    </ul>
+                        <li>Academia: Lectures, Conferences, ...
 
-                </details>
+                        <li>Social: Knitting Club, Community of Learners, ...
 
-            </div>
-
-            <div class="cv-section">
-
-                <details closed>
-
-                    <summary>Position II</summary>
-
-                    <ul>
-
-                        <li>Project a
-
-                        <li>Project b
-
-                        <li>Project c
+                        <li>Interests: Rugby, Cricket, ...
 
                     </ul>
 
-                </details>
-
+                </div>
+                
             </div>
-
-            <!-- other work experience -->
-            
-            <div class="cv-header">
-
-                <h4 class="cv-header-left">Employer B</h4>
-
-                <h4 class="cv-header-right">20XX to 20YY</h4>
-
-                <div class="clear"></div>
-
-            </div>
-
-            <div class="cv-section">
-
-                <details closed>
-
-                    <summary>Position I</summary>
-
-                    <ul>
-
-                        <li>Project i
-
-                        <li>Project ii
-
-                        <li>Project ii
-
-                    </ul>
-
-                </details>
-
-            </div>
-            
-            <h3 style="margin-bottom: 0;">Academic Experience</h3>
-
-            <!-- relevant academic experience -->
-            
-            <div class="cv-header">
-
-                <h4 class="cv-header-left">University A</h4>
-
-                <h4 class="cv-header-right">20XX to Present</h4>
-
-                <div class="clear"></div>
-
-            </div>
-
-            <div class="cv-section">
-
-                <details closed>
-
-                    <summary>Position I</summary>
-
-                    <ul>
-
-                        <li>Project i
-
-                        <li>Project ii
-
-                        <li>Project ii
-
-                    </ul>
-
-                </details>
-
-            </div>
-            
-            <!-- education -->
-
-            <h3 style="margin-bottom: 0;">Education</h3>
-
-            <!-- post graduate -->
-            
-            <div class="cv-header">
-
-                <h4 class="cv-header-left">University A</h4>
-
-                <h4 class="cv-header-right">20XX</h4>
-
-                <div class="clear"></div>
-
-            </div>
-
-            <div class="cv-section">
-
-                <details closed>
-
-                    <summary>Degree, Topic, Title</summary>
-
-                    <ul>
-
-                        <li>Topic i
-
-                        <li>Topic ii
-
-                        <li>Topic ii
-
-                    </ul>
-
-                </details>
-
-            </div>
-
-            <!-- graduate -->
-            
-            <div class="cv-header">
-
-                <h4 class="cv-header-left">University B</h4>
-
-                <h4 class="cv-header-right">20YY</h4>
-
-                <div class="clear"></div>
-
-            </div>
-
-            <div class="cv-section">
-
-                <details closed>
-
-                    <summary>Degree, Topic, Title</summary>
-
-                    <ul>
-
-                        <li>Topic a
-
-                        <li>Topic b
-
-                        <li>Topic c
-
-                    </ul>
-
-                </details>
-
-            </div>
-
-            <!-- skills and interests -->
-            
-            <h3 style="margin-bottom: 0;">Skills &#38; Interests</h3>
-            
-            <div class="cv-header">
-
-                <h4 class="cv-header-left">University A</h4>
-
-                <h4 class="cv-header-right">20XX</h4>
-
-                <div class="clear"></div>
-
-            </div>
-
-            <div class="cv-section">
-
-                <details closed>
-
-                    <summary>Degree, Topic, Title</summary>
-
-                    <ul>
-
-                        <li>Topic i
-
-                        <li>Topic ii
-
-                        <li>Topic ii
-
-                    </ul>
-
-                </details>
-
-            </div>            
 
         </div>
 
-    </div>
+        <div class="content-section" id="about">
+
+            <h2>About</h2>
+    
+            <p>Please use <a href="https://github.com/user-a970/example-website">this website</a> to show people who you are and what you do.
+    
+            <p><a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo">Fork it</a> and host it for free on <a href="https://pages.github.com/">GitHub Pages</a>.
+            
+            <p>The website is built with HTML and CSS. Some useful resources:
+            
+            <ul>
+    
+                <li>A HTML and CSS style guide <a href="https://google.github.io/styleguide/htmlcssguide.html" target="_blank">&rarr;</a>
+                
+                <li>Building a responsive HTML website <a href="https://www.w3schools.com/html/html_responsive.asp" target="_blank">&rarr;</a>
+                
+                <li>CSS building blocks <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS" target="_blank">&rarr;</a>
+    
+            </ul>
+    
+        </div>   
+    
+    </div> 
 
     <div class="footer">
 
