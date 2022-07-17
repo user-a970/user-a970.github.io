@@ -1,3 +1,13 @@
+/* colors */
+
+:root {
+  --background-menu: black;
+  --background-menu-item: red;
+  --background-header-footer: gray;
+  --background-content: blue;
+  --background-content-section: green;
+}
+
 /* general styles */
 
 * {
@@ -42,7 +52,7 @@ pre code {
   top: 0;
   margin-bottom: -4em;
   float: left;
-  background-color: black;
+  background-color: var(--background-menu);
 }
 
 .menu a {
@@ -51,7 +61,7 @@ pre code {
   display: block;
   font-size: larger;
   text-align: right;
-  background-color: red;
+  background-color: var(--background-menu-item);
 }
 
 /* site wide styles */
@@ -59,19 +69,19 @@ pre code {
 .header {
   padding: 1em;
   text-align: center;
-  background-color: gray;
+  background-color: var(--background-header-footer);
 }
 
 .content {
   margin-left: 160px;
   padding: 0.5em;
-  background-color: blue;
+  background-color: var(--background-content);
 }
 
 .content-section {
   margin-bottom: 0.5em;
   padding: 1em;
-  background-color: green;
+  background-color: var(--background-content-section);
 }
 
 .content-subsection {
@@ -88,7 +98,7 @@ pre code {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   z-index: 1000;
-  background-color: gray;
+  background-color: var(--background-header-footer);
 }
 
 /* cv styles */
