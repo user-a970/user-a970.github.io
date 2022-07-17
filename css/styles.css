@@ -128,6 +128,13 @@ pre code {
   clear: both;
 }
 
+/* hidden elements */
+
+.content-hidden-contact {
+  display: none;
+}
+
+
 @media only screen and (max-width: 620px) {
 
   /* for mobile phones */
@@ -162,6 +169,34 @@ pre code {
   .content {
     width: 100%;
     margin: auto;
+  }
+
+}
+
+@media print {
+
+  /* hide unnecessary elements */
+  
+  .header, .footer, .menu {
+    display: none;
+  }
+
+  #intro, #projects, #posts, #about {
+    display: none;
+  }
+  
+  body {
+    background-color: white;
+  }
+
+  .content {
+    width: 100%;
+    margin: auto;
+    padding: 2em;
+  }
+
+  .content-hidden-contact {
+    display: initial;
   }
 
 }
