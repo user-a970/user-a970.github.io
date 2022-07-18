@@ -192,6 +192,8 @@ pre code {
     display: none !important;
   }
   
+  /* format for printing */
+  
   body {
     background-color: white !important;
   }
@@ -201,6 +203,8 @@ pre code {
     margin: auto;
     padding: 2em;
   }
+
+  /* un-hide contact header */
 
   .content-hidden-contact {
     display: initial !important;
