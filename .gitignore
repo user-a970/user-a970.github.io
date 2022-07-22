@@ -1,1 +1,5 @@
+# vscode files
+.vscode/
+
+# temporary files
 temp*
