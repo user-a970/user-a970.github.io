@@ -6,6 +6,8 @@
   --background-header-footer: gray;
   --background-content: blue;
   --background-content-section: green;
+  --background-code: black;
+  --code: coral;
 }
 
 /* general styles */
@@ -36,10 +38,9 @@ h3, h4 {
 }
 
 pre code {
-  padding: 1rem;
   display: block;
-  background-color: #eee;
-  border: 1px solid #999;
+  color: var(--code);
+  background-color: var(--background-code);
 }
 
 /* main page */
